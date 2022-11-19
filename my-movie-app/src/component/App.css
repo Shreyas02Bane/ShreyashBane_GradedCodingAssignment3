@@ -1,0 +1,141 @@
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h2#h2,
+h2 {
+  font-size: 1rem;
+}
+
+hr#hr {
+  margin: 0rem 0;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: .25;
+}
+
+div#fav_no_data {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5em;
+  font-size: 3em;
+  font-family: cursive;
+}
+
+.btn {
+  font-size: 13px;
+}
+
+a#navLink {
+  color: #010a18;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: rgba(17, 17, 17, 0.55);
+}
+
+a#navLink.active {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+a.nav-link {
+  color: rgba(17, 17, 17, 0.55);
+  display: block;
+  padding: 0.5em 1em 0em 1em;
+  border-bottom-color: red;
+}
+
+
+
+
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: rgba(108, 0, 250, 0.9);
+  text-decoration: underline;
+}
+
+
+svg:not(:root).svg-inline--fa,
+svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+  color: rgb(255, 57, 31);
+}
+
+div#CardBody.card-body {
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
+  padding-right: 0;
+}
+
+.card:hover {
+  transform: scale(1.025);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.card-img {
+  height: 280px;
+}
+
+.card-img-top {
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+  height: 280px;
+}
+
+button.btn.btn-primary {
+
+  --bs-btn-font-size: 0.75rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: 300px;
+}
+
+div#backToHome {
+  color: #0b79b9;
+  font-size: medium;
+  padding-left: 2em;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#hrBackToHome {
+  color: inherit;
+  border: 0;
+  border-top: 1px solid;
+  opacity: .25;
+  
+}
+
+img#imgDescription.img-fluid {
+  height: 500px;
+  padding: 3em;
+  width: 400px;
+}
